@@ -27,7 +27,7 @@ public class Carro {
     }
     
     public void mover(){
-        if(this.xref<500){
+        if(this.xref<1024){
         this.xref++;
     }else{
             this.xref = 0;

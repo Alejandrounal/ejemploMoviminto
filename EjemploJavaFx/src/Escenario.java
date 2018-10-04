@@ -21,9 +21,9 @@ public class Escenario extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Pane layout = new Pane();
-        Canvas canvas = new Canvas(500,500);
+        Canvas canvas = new Canvas(1024,512);
         layout.getChildren().add(canvas);
-        Scene escena = new Scene(layout,500,500,Color.AZURE);
+        Scene escena = new Scene(layout,1024,512,Color.AZURE);
         
     
         
